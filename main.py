@@ -25,3 +25,6 @@ else:
 message = st.text_area("なんか入力")
 
 submitted = st.form_submit_button('なんか投稿する')
+
+if submitted:
+    with st.spinner("考え中…"):
