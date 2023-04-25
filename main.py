@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="Pythonで遊ぶやつ", layout="wide")
+
 st.title("BMI 計算機（Streamlitデモ）")
 
 height_cm = st.number_input("身長（cm）", min_value=100, max_value=250)
