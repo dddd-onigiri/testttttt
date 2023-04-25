@@ -20,3 +20,6 @@ elif bmi < 29.9:
     st.write("肥満気味です")
 else:
     st.write("肥満です")
+
+
+message = st.text_area("なんか入力")
